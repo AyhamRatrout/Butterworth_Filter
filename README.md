@@ -39,6 +39,28 @@ Finally, after I was done filtering the owl sound signal, I went ahead and const
 </p>
   
 ### 2. Highpass Filter Design:
+In the “Highpass Filter Design” portion of the “Measurements and Results” section of this project, I will be showing and discussing the results I obtained while in the process of designing the highpass Butterworth filter. After computing the discrete Fourier Transform of the unfiltered birds sound signal using MATLAB’s fft() function, I went ahead and used MATLAB’s plot() function to plot the resulting single-sided magnitude spectrum of this unfiltered sound signal. The plot I obtained is as seen below.
+<p align="center">
+  <img src="https://github.com/AyhamRatrout/Butterworth_Filter/blob/master/Measurements_And_Results/Birds_Unfiltered_Single_Sided_Magnitude_Spectrum.png" alt="Alt text">
+</p>
+
+As one can see from the plot above, the single-sided magnitude spectrum of the unfiltered birds sound signal does not prove to be all that helpful as the interfering signal components are time varying. Therefore, to get around that, I went ahead and used MATLAB’s spectrogram() function in order to construct a spectrogram depicting the Fourier Transform of the unfiltered birds sound signal over time. The spectrogram I obtained is as shown below.
+<p align="center">
+  <img src="https://github.com/AyhamRatrout/Butterworth_Filter/blob/master/Measurements_And_Results/Birds_Unfiltered_Fourier_Transform.png" alt="Alt text">
+</p>
+
+Now, after designing the highpass 8th order Butterworth Filter, I went ahead and plotted the frequency response (magnitude and phase) of my designed filter. Therefore, I used MATLAB’s freqz() function to obtain a plot for the frequency response of my designed Butterworth filter. The plot I obtained is as shown below.
+<p align="center">
+  <img src="https://github.com/AyhamRatrout/Butterworth_Filter/blob/master/Measurements_And_Results/Highpass_Filter_Frequency_Response.png" alt="Alt text">
+</p>
+
+Finally, after I was done filtering the birds sound signal, I went ahead and constructed the single-sided magnitude spectrum of the filtered birds sound signal (the output signal) using the fft() and plot() commands before constructing the spectrogram depicting the Fourier transform of the filtered signal over time using the spectrogram() command. The resulting plots are as seen below.
+<p align="center">
+  <img src="https://github.com/AyhamRatrout/Butterworth_Filter/blob/master/Measurements_And_Results/Birds_Filtered_Single_Sided_Magnitude_Spectrum.png" alt="Alt text">
+</p>
+<p align="center">
+  <img src="https://github.com/AyhamRatrout/Butterworth_Filter/blob/master/Measurements_And_Results/Birds_Filtered_Fourier_Transform.png" alt="Alt text">
+</p>
 
 ## Concluding Remarks:
 In conclusion, my results turned out to be in line with the objectives I have set forth for myself for the purpose of this project. I was able to, completely, filter out the sound of a utility vehicle’s backup beeper from that of a great horned owl’s hoots using a 7th order lowpass Butterworth filter. Similarly, I was able to, completely, filter out the sound of a flying jet from the that of a group of birds chirping using an 8th order highpass Butterworth filter. Therefore, it is safe to claim that I was able to achieve the objective of eliminating the unwanted noises in the unfiltered sound files I have using the appropriate, minimal order Butterworth filters in addition to the signals and systems knowledge I have acquired throughout my education.  
