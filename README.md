@@ -21,11 +21,22 @@ In the “Lowpass Filter Design” portion of the “Measurements and Results”
 </p>
 
 As one can see from the plot above, the single-sided magnitude spectrum of the unfiltered owl sound signal does not prove to be all that helpful as the interfering signal components are time varying. Therefore, to get around that, I went ahead and used MATLAB’s spectrogram() function in order to construct a spectrogram depicting the Fourier Transform of the unfiltered owl sound signal over time. The spectrogram I obtained is as shown below.
+<p align="center">
+  <img src="https://github.com/AyhamRatrout/Butterworth_Filter/blob/master/Measurements_And_Results/Owl_Unfiltered_Fourier_Transform.png" alt="Alt text">
+</p>
 
 Now, after designing the lowpass 7th order Butterworth Filter, I went ahead and plotted the frequency response (magnitude and phase) of my designed filter. In order to accomplish this, I used MATLAB’s freqz() function to obtain a plot for the frequency response of my designed Butterworth filter. The plots I obtained are as shown below.
+<p align="center">
+  <img src="https://github.com/AyhamRatrout/Butterworth_Filter/blob/master/Measurements_And_Results/Lowpass_Filter_Frequency_Response.png" alt="Alt text">
+</p>
 
 Finally, after I was done filtering the owl sound signal, I went ahead and constructed the single-sided magnitude spectrum of the filtered owl sound signal (the output signal) using the fft() and plot() commands before constructing the spectrogram depicting the Fourier transform of the filtered signal over time using the spectrogram() command. The resulting plots can be seen below.
-
+<p align="center">
+  <img src="https://github.com/AyhamRatrout/Butterworth_Filter/blob/master/Measurements_And_Results/Owl_Filtered_Single_Sided_Magnitude_Spectrum.png" alt="Alt text">
+</p>
+<p align="center">
+  <img src="https://github.com/AyhamRatrout/Butterworth_Filter/blob/master/Measurements_And_Results/Owl_Filtered_Fourier_Transform.png" alt="Alt text">
+</p>
   
 ### 2. Highpass Filter Design:
 
