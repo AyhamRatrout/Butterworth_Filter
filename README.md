@@ -15,6 +15,14 @@ For the purpose of this part of the project, I concluded that I had to design an
   
 ## Measurements and Results:
 ### 1. Lowpass Filter Design:
+In the “Lowpass Filter Design” portion of the “Measurements and Results” section of this README file, I will be showing and discussing the results I obtained while in the process of designing the lowpass Butterworth filter. After computing the discrete Fourier Transform of the unfiltered owl sound signal using MATLAB’s fft() function, I went ahead and used MATLAB’s plot() function to plot the resulting single-sided magnitude spectrum of this unfiltered sound signal. The plot I obtained is as seen below.
+
+As one can see from the plot above, the single-sided magnitude spectrum of the unfiltered owl sound signal does not prove to be all that helpful as the interfering signal components are time varying. Therefore, to get around that, I went ahead and used MATLAB’s spectrogram() function in order to construct a spectrogram depicting the Fourier Transform of the unfiltered owl sound signal over time. The spectrogram I obtained is as shown below.
+
+Now, after designing the lowpass 7th order Butterworth Filter, I went ahead and plotted the frequency response (magnitude and phase) of my designed filter. In order to accomplish this, I used MATLAB’s freqz() function to obtain a plot for the frequency response of my designed Butterworth filter. The plots I obtained are as shown below.
+
+Finally, after I was done filtering the owl sound signal, I went ahead and constructed the single-sided magnitude spectrum of the filtered owl sound signal (the output signal) using the fft() and plot() commands before constructing the spectrogram depicting the Fourier transform of the filtered signal over time using the spectrogram() command. The resulting plots can be seen below.
+
   
 ### 2. Highpass Filter Design:
 
