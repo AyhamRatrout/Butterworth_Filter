@@ -7,7 +7,7 @@ Noise is all around us and more often than not, noise interferes with the some o
 The main objectives of this project were to take a deep dive into some of the common analysis and design techniques to solving two practical filter design problems as well as improve my theoretical and practical understanding of some of the concepts related to signals and systems sych as: Fourier Transforms, Filtering, and Sampling. To ensure the previously mentioned objectives are achieved, I decided to use MATLAB to design two types of Butterworth filters: a lowpass Butterworth filter and a highpass Butterworth filter. The lowpass Butterworth filter was used to eliminate the sound of a utility vehicle’s backup beeper from that of a great horned owl’s hoots whereas the highpass Butterworth filter was used to eliminate the sound of a flying jet from that of a number of birds chirping. With that said, the main challenge I set for myself was to design filters that are able to, effectively, eliminate the unwanted noise from the beautiful sounds of nature while still maintaining a minimal order.
 
 ## Technique and Aproach:
-    1. ### Lowpass Filter Design:
+    ### 1. Lowpass Filter Design:
     2. ### Highpass Filter Design:
 
 ## Concluding Remarks:
