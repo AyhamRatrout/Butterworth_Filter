@@ -9,6 +9,11 @@ The main objectives of this project were to take a deep dive into some of the co
 ## Technique and Aproach:
   ### 1. Lowpass Filter Design:
   ### 2. Highpass Filter Design:
+  
+## Measurements and Results:
+  ### 1. Lowpass Filter Design:
+  
+  ### 2. Highpass Filter Design:
 
 ## Concluding Remarks:
 In conclusion, my results turned out to be in line with the objectives I have set forth for myself for the purpose of this project. I was able to, completely, filter out the sound of a utility vehicle’s backup beeper from that of a great horned owl’s hoots using a 7th order lowpass Butterworth filter. Similarly, I was able to, completely, filter out the sound of a flying jet from the that of a group of birds chirping using an 8th order highpass Butterworth filter. Therefore, it is safe to claim that I was able to achieve the objective of eliminating the unwanted noises in the unfiltered sound files I have using the appropriate, minimal order Butterworth filters in addition to the signals and systems knowledge I have acquired throughout my education.  
